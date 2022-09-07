@@ -36,4 +36,4 @@ cd $var/neo4j-enterprise-4.4.10/bin/
 ./neo4j start
 rm -rf neo4j-enterprise-4.4.10-unix.tar.gz
 
-echo "NEO4J SUCCESFULY INSTALLED'"
+echo "NEO4J SUCCESFULY INSTALLED"
