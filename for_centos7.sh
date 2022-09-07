@@ -1,6 +1,7 @@
 #!/bin/bash
-echo "THIS SCRIPT CREATED BY AGUNG RAKA WIBAWA SUBCRIBE MY GITHUB FOR MORE https://github.com/rakaa-dev "
-wget https://neo4j.com/artifact.php?name=neo4j-enterprise-4.4.10-unix.tar.gz 
+echo "https://github.com/rakaa-dev "
+yum install java-11-openjdk-devel -y
+wget https://neo4j.com/artifact.php?name=neo4j-enterprise-4.4.10-unix.tar.gz
 
 cp 'artifact.php?name=neo4j-enterprise-4.4.10-unix.tar.gz'  neo4j-enterprise-4.4.10-unix.tar.gz && rm 'artifact.php?name=neo4j-enterprise-4.4.10-unix.tar.gz'
 tar -xvf neo4j-enterprise-4.4.10-unix.tar.gz
@@ -33,5 +34,6 @@ wget https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/4.
 
 cd $var/neo4j-enterprise-4.4.10/bin/
 ./neo4j start
+rm -rf neo4j-enterprise-4.4.10-unix.tar.gz
 
-echo "IF FAILED STARTING INSTALL JAVA 11 'sudo apt install openjdk-11-jre-headless'"
+echo "NEO4J SUCCESFULY INSTALLED'"
