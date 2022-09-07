@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "THIS SCRIPT CREATED BY AGUNG RAKA WIBAWA SUBCRIBE MY GITHUB FOR MORE https://github.com/rakaa-dev "
+echo "https://github.com/rakaa-dev "
 wget https://neo4j.com/artifact.php?name=neo4j-enterprise-4.4.10-unix.tar.gz -q --show-progress
 
 cp 'artifact.php?name=neo4j-enterprise-4.4.10-unix.tar.gz'  neo4j-enterprise-4.4.10-unix.tar.gz && rm 'artifact.php?name=neo4j-enterprise-4.4.10-unix.tar.gz'
