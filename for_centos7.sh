@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "https://github.com/rakaa-dev "
+echo "https://github.com/git-raka"
 yum install java-11-openjdk-devel -y
 wget https://neo4j.com/artifact.php?name=neo4j-enterprise-4.4.10-unix.tar.gz
 
