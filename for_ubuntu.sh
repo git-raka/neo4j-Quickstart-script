@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "https://github.com/rakaa-dev "
+sudo apt install openjdk-11-jre-headless -y
 wget https://neo4j.com/artifact.php?name=neo4j-enterprise-4.4.10-unix.tar.gz -q --show-progress
 
 cp 'artifact.php?name=neo4j-enterprise-4.4.10-unix.tar.gz'  neo4j-enterprise-4.4.10-unix.tar.gz && rm 'artifact.php?name=neo4j-enterprise-4.4.10-unix.tar.gz'
@@ -34,4 +35,4 @@ wget https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/4.
 cd $var/neo4j-enterprise-4.4.10/bin/
 ./neo4j start
 
-echo "IF FAILED STARTING INSTALL JAVA 11 'sudo apt install openjdk-11-jre-headless'"
+echo "Neo4j Sucessfuly installed"
