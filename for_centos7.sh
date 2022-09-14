@@ -1,6 +1,7 @@
 #!/bin/bash
 echo "https://github.com/git-raka"
-yum install java-11-openjdk-devel -y
+yum install java-11-openjdk-devel -y 
+yum install wget -y
 wget https://neo4j.com/artifact.php?name=neo4j-enterprise-4.4.10-unix.tar.gz
 
 cp 'artifact.php?name=neo4j-enterprise-4.4.10-unix.tar.gz'  neo4j-enterprise-4.4.10-unix.tar.gz && rm 'artifact.php?name=neo4j-enterprise-4.4.10-unix.tar.gz'
