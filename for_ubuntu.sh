@@ -22,6 +22,10 @@ echo "dbms.security.procedures.unrestricted=apoc.*,gds.*,bloom.*
 dbms.security.procedures.allowlist=apoc.*,gds.*,bloom.*
 apoc.import.file.enabled=true
 apoc.import.file.use_neo4j_config=true
+neo4j.bloom.license_file=/home/mri/neo4j-enterprise-4.4.10/licenses/bloom.txt
+gds.enterprise.license_file=/home/mri/neo4j-enterprise-4.4.10/licenses/gds.txt
+dbms.unmanaged_extension_classes=com.neo4j.bloom.server=/bloom
+dbms.security.http_auth_allowlist=/,/browser.*,/bloom.*
 dbms.default_listen_address=0.0.0.0
 dbms.default_advertised_address=$ip" >> $filename
 
