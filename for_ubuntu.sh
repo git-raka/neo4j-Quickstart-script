@@ -39,4 +39,4 @@ wget https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/4.
 cd $var/neo4j-enterprise-4.4.12/bin/
 ./neo4j start
 
-echo "Neo4j Sucessfuly installed,open your browser in $ip:7474"
+echo "Neo4j Sucessfuly installed,open your browser inN $ip:7474"
