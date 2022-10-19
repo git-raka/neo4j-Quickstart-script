@@ -1,0 +1,14 @@
+[Unit]
+Requires=network.target remote-fs.target
+After=network.target remote-fs.target
+
+[Service]
+Type=forking
+User=ddi
+ExecStart=/home/ddi/neo4j-enterprise-4.4.11/bin/neo4j start
+ExecStop=/home/ddi//neo4j-enterprise-4.4.11/bin/neo4j stop
+ExecReload=/home/ddi/neo4j-enterprise-4.4.11/bin/neo4j restart
+Restart=on-abnormal
+
+[Install]
+WantedBy=multi-user.target
