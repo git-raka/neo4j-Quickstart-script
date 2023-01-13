@@ -14,6 +14,7 @@ echo "The current working directory $var"
 
 #define filename
 cd $var/neo4j-enterprise-5.3.0/conf
+echo "apoc.import.file.enabled=true" >> $var/neo4j-enterprise-5.3.0/conf/apoc.conf
 filename='neo4j.conf'
 
 # Define ip
