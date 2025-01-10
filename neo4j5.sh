@@ -47,7 +47,7 @@ wget https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/5.
 
 #Accept license
 cd $var/neo4j-enterprise-5.16.0/bin/
-./neo4j-admin server license --accept-evaluation
+./neo4j-admin server license --accept-commercial
 # Memory configuration
 cd $var/neo4j-enterprise-5.16.0/bin/
 ./neo4j-admin server memory-recommendation
